@@ -3,10 +3,8 @@ package com.momomomo111.composemoveotherapp
 import android.annotation.SuppressLint
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.momomomo111.composemoveotherapp.domain.AppData
 import com.momomomo111.composemoveotherapp.ui.screen.HomeScreen
 import com.momomomo111.composemoveotherapp.ui.theme.ComposeMoveOtherAppTheme
 
@@ -26,8 +24,6 @@ class MainActivity : ComponentActivity() {
                 packageName = it.packageName
             )
         }
-
-        Log.d("appNum", appDataList.size.toString())
 
         setContent {
             ComposeMoveOtherAppTheme {

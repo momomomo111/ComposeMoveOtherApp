@@ -25,8 +25,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.google.accompanist.drawablepainter.rememberDrawablePainter
+import com.momomomo111.composemoveotherapp.AppData
 import com.momomomo111.composemoveotherapp.R
-import com.momomomo111.composemoveotherapp.domain.AppData
 
 @Composable
 fun HomeScreen(appDataList: List<AppData>) {
